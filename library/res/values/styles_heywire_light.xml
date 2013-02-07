@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- File created by the Android Action Bar Style Generator
+<!--
+     File created by the Android Action Bar Style Generator
 
      Copyright (C) 2012 readyState Software Ltd
 
@@ -25,7 +26,6 @@
         <item name="actionBarTabStyle">@style/heywire_light_ActionBarTabStyle</item>
         <item name="actionDropDownStyle">@style/heywire_light_DropDownNav</item>
         <item name="actionBarStyle">@style/heywire_light_solid_ActionBar</item>
-
         <item name="android:actionBarItemBackground">@drawable/selectable_background_heywire_light</item>
         <item name="android:popupMenuStyle">@style/heywire_light_PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/heywire_light_DropDownListView</item>
@@ -33,11 +33,10 @@
         <item name="android:actionDropDownStyle">@style/heywire_light_DropDownNav</item>
         <item name="android:actionBarStyle">@style/heywire_light_solid_ActionBar</item>
         <item name="android:panelBackground">@drawable/menu_hardkey_panel_heywire_light</item>
-        
-                <!-- Light.DarkActionBar specific -->
+
+        <!-- Light.DarkActionBar specific -->
         <item name="actionBarWidgetTheme">@style/Theme.heywire_light.widget</item>
         <item name="android:actionBarWidgetTheme">@style/Theme.heywire_light.widget</item>
-
     </style>
 
     <style name="heywire_light_solid_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
@@ -45,7 +44,6 @@
         <item name="backgroundStacked">@drawable/ab_stacked_solid_heywire_light</item>
         <item name="backgroundSplit">@drawable/ab_bottom_solid_heywire_light</item>
         <item name="progressBarStyle">@style/heywire_light_ProgressBar</item>
-
         <item name="android:background">@drawable/ab_solid_heywire_light</item>
         <item name="android:backgroundStacked">@drawable/ab_stacked_solid_heywire_light</item>
         <item name="android:backgroundSplit">@drawable/ab_bottom_solid_heywire_light</item>
@@ -55,42 +53,38 @@
     <style name="heywire_light_transparent_ActionBar" parent="@style/Widget.Sherlock.ActionBar">
         <item name="background">@drawable/ab_transparent_heywire_light</item>
         <item name="progressBarStyle">@style/heywire_light_ProgressBar</item>
-        
         <item name="android:background">@drawable/ab_transparent_heywire_light</item>
         <item name="android:progressBarStyle">@style/heywire_light_ProgressBar</item>
     </style>
-	
-    <style name="heywire_light_PopupMenu" parent="@style/Widget.Sherlock.ListPopupWindow">	
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_heywire_light</item>	
+
+    <style name="heywire_light_PopupMenu" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_bandwagon</item>
     </style>
-	
+
     <style name="heywire_light_DropDownListView" parent="@style/Widget.Sherlock.ListView.DropDown">
         <item name="android:listSelector">@drawable/selectable_background_heywire_light</item>
     </style>
 
     <style name="heywire_light_ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
         <item name="background">@drawable/tab_indicator_ab_heywire_light</item>
-
         <item name="android:background">@drawable/tab_indicator_ab_heywire_light</item>
     </style>
-	
+
     <style name="heywire_light_DropDownNav" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
         <item name="background">@drawable/spinner_background_ab_heywire_light</item>
-
         <item name="android:background">@drawable/spinner_background_ab_heywire_light</item>
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_heywire_light</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_heywire_light</item>
     </style>
-    
+
     <style name="heywire_light_ProgressBar" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_heywire_light</item>
     </style>
-    
+
     <!-- this style is only referenced in a Light.DarkActionBar based theme -->
     <style name="Theme.heywire_light.widget" parent="@style/Theme.Sherlock">
         <item name="popupMenuStyle">@style/heywire_light_PopupMenu</item>
         <item name="dropDownListViewStyle">@style/heywire_light_DropDownListView</item>
-        
         <item name="android:popupMenuStyle">@style/heywire_light_PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/heywire_light_DropDownListView</item>
     </style>
